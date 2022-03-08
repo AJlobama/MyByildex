@@ -1,0 +1,63 @@
+.header {
+  width: 100%;
+
+  &__wrapper {
+    display: flex;
+    padding: 0 16px;
+    margin: 4px 0;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 50px;
+    p {
+      font-family: "Oswald";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 27px;
+      padding-left: 5px;
+      color: #45525b;
+    }
+  }
+
+  &__contain-menu {
+    display: inline-block;
+    margin-right: 45px;
+    ul {
+      display: flex;
+      li {
+        font-family: "Oswald";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        padding-left: 35px;
+        color: #444;
+      }
+    }
+  }
+
+  &__img {
+    position: relative;
+    z-index: 0;
+    img {
+      width: 100%;
+    }
+
+    &__depiction {
+      position: absolute;
+      top: 20%;
+      right: 40%;
+      p {
+        font-family: "Oswald";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 17px;
+        color: #fff;
+      }
+    }
+  }
+}

@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'Oswald';
+  src: url("Oswald-SemiBold.woff2") format("woff2"), url("Oswald-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url("Oswald-Medium.woff2") format("woff2"), url("Oswald-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url("Oswald-ExtraLight.woff2") format("woff2"), url("Oswald-ExtraLight.woff") format("woff");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url("Oswald-Bold.woff2") format("woff2"), url("Oswald-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url("Oswald-Light.woff2") format("woff2"), url("Oswald-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url("Oswald-Regular.woff2") format("woff2"), url("Oswald-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.header {
+  width: 100%;
+}
+
+.header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 16px;
+  margin: 4px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-left: 50px;
+}
+
+.header__logo p {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  padding-left: 5px;
+  color: #45525b;
+}
+
+.header__contain-menu {
+  display: inline-block;
+  margin-right: 45px;
+}
+
+.header__contain-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__contain-menu ul li {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  padding-left: 35px;
+  color: #444;
+}
+
+.header__img {
+  position: relative;
+  z-index: 0;
+}
+
+.header__img img {
+  width: 100%;
+}
+
+.header__img__depiction {
+  position: absolute;
+  top: 20%;
+  right: 40%;
+}
+
+.header__img__depiction p {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
