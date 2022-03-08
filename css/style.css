@@ -126,4 +126,15 @@
   font-size: 17px;
   color: #fff;
 }
+
+.header__logo__text {
+  position: absolute;
+  top: 39%;
+  right: 11%;
+  font-family: "Oswald";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+}
 /*# sourceMappingURL=style.css.map */
